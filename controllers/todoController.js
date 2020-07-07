@@ -2,7 +2,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 //Connect to the database
-mongoose.connect('mongodb+srv://shivam:shivam@cluster0.torqu.mongodb.net/todo?retryWrites=true&w=majority');
+mongoose.connect(''); // ' ' will contain your connection string to your MongoDB cluster
 
 //Create a schema - this is like a blueprint
 var todoSchema = new mongoose.Schema({
